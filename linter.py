@@ -14,6 +14,7 @@
 import re
 from SublimeLinter.lint import Linter, ERROR, WARNING
 
+debug = False
 
 def _escape_words(values):
     if not values:
